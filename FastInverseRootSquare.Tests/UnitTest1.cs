@@ -5,9 +5,6 @@ namespace FastInverseRootSquare.Tests
 {
     public class UnitTest1
     {
-        private double dNumber1 = 4, dNumber2 = 1024, dNumber3 = 1;
-        private float fNumber1 = 4, fNumber2 = 1024, fNumber3 = 1;
-
         [Theory]
         [InlineData(4d, .5d)]
         [InlineData(25d, .2d)]
